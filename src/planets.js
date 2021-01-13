@@ -1,7 +1,15 @@
+import { appendListOfElements } from "./common";
+import planetSrc from './assets/planet.svg';
 
 // 🔨6. build a function to retrieve each planet 🔨
-
-const Planet = () => { return; }
+export const Planet = ({ name, climate, population }) => {
+  return `<article class="card">
+   <img src="${planetSrc}" alt="planet" />
+   <h3>Planet Name: ${name}</h2>
+   <div>Climate: <strong style="margin-right: 10px;">${climate}</strong></div>
+   <div>Population: ${population}</div>
+  </article>`;
+};
 
 // ⚠️ Planet Element ⚠️
 // <article className="card">
@@ -11,14 +19,13 @@ const Planet = () => { return; }
 //     <div>Population: </div>
 // </article>
 
-
-const Planets = ({ data }) => {
+export const Planets = ({ data }) => {
   // ✅ 9. get a list of planet elements ✅
-  // const planetList = ???;
+  const planetList = data.map(Planet);
 
   // ✅ 5. render Planets content ✅
   return `
      <h2>Planets List</h2>
-     ♻️ 9a. use appendListOfElements helper function to display planetList ♻️
+     ${appendListOfElements(planetList)}
   `;
 };
