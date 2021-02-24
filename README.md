@@ -29,3 +29,7 @@ There are 11 main steps to complete the application. Each step has it's a clear 
   > a) print results to the console <br />
   > b) extract planet info outside of a promise
 
+## Brances
+
+- _main_: contains all available steps.
+- _completed_: contains the final version of the application.
