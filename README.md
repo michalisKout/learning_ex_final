@@ -11,7 +11,7 @@ It is based on vanilla javascript including some vital packages to make it work 
 
 ## Steps
 
-There are 11 main steps to complete the application. Each step has it's a clear description.
+There are 11 main steps to complete the application. Each step has a clear description.
 
 - app.js - init App 
 - app.js - Create tabs and welcome screen
