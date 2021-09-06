@@ -1,4 +1,4 @@
-# AA learning Javascript courses.
+# Learning Javascript fundamentals.
 
 This is the final excercise of the javascript fundamentals courses.
 
