@@ -1,7 +1,7 @@
 {
-  "name": "vanilla",
+  "name": "Starwars App",
   "version": "1.0.0",
-  "description": "JavaScript example starter project",
+  "description": "JavaScript fundamentals starwars app",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
